@@ -1,0 +1,36 @@
+.body .villas-presentation {
+  margin: 5rem 0;
+}
+.body .villas-presentation__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.body .villas-presentation__content__image {
+  margin-right: 1rem;
+  width: 900px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: solid white 3px;
+}
+.body .villas-presentation__content__resume {
+  font-size: 1.4rem;
+}
+.body .villas-presentation__others-villas {
+  margin-top: 7rem;
+}
+.body .villas-presentation__others-villas__images {
+  display: flex;
+  flex-direction: row;
+}
+.body .villas-presentation__others-villas__images__element {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: solid white 3px;
+}
+
+/*# sourceMappingURL=main.css.map */
