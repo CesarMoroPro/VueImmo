@@ -19,11 +19,11 @@
                         <h2>Tous nos appartements</h2>
                         <div class="housing-presentation__others-housing__title-and-image">
                                 <div class="housing-presentation__others-housing__title-and-image__title-element"
-                                        v-for="appartement in appartements"
-                                        :key="appartement.id">
-                                        {{ appartement.title }}
+                                        v-for="house in houses"
+                                        :key="house.id">
+                                        {{ house.title }}
 
-                                        <img class="housing-presentation__others-housing__title-and-image__image-element" :src="appartement.img1" />
+                                        <img class="housing-presentation__others-housing__title-and-image__image-element" :src="house.img1" />
                                 </div>
                         </div>
                 </div>
@@ -38,7 +38,7 @@ import dataSource from '../assets/json/data.json';
 export default {
         data() {
                 return {
-                        appartements: dataSource.appartements,
+                        houses: dataSource.appartements,
                         categories: dataSource.categories,
                 }
         },
