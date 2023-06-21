@@ -1,21 +1,26 @@
 <template>
-        <header>
-                <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
-                <div class="wrapper">
-                        <HelloWorld msg="You did it!" />
+        <HeaderComponent />
+        <NavigationComponent />
 
-                        <nav>
-                                <RouterLink to="/">Home</RouterLink>
-                                <RouterLink to="/about">About</RouterLink>
-                        </nav>
-                </div>
-        </header>
+        <router-view /> <!-- ViewRouter principal, qui appelle les routes homepage, villas, appartements, chalets -->
 
-        <RouterView />
+        <NavigationComponent />
+
+        <FooterComponent />
+
 </template>
 
-<script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+<script>
+import HeaderComponent from './components/layouts/Header.vue';
+import NavigationComponent from './components/navigation/TheNavigation.vue';
+import FooterComponent from './components/layouts/Footer.vue';
+
+export default {
+        components: {
+                HeaderComponent,
+                NavigationComponent,
+                FooterComponent,
+        }
+}
 </script>
