@@ -12,11 +12,14 @@
 
                 <div class="villas-presentation__others-villas">
                         <h2>Toutes nos villas</h2>
-                        <div class="villas-presentation__others-villas__images"
-                                v-for="property in properties"
-                                :key="property.id">
-                                <img class="villas-presentation__others-villas__images__element" 
-                                        :src="property.img1" />
+                        <div class="villas-presentation__others-villas__title-and-image">
+                                <div class="villas-presentation__others-villas__title-and-image__title-element"
+                                        v-for="property in properties"
+                                        :key="property.id">
+                                        {{ property.title }}
+
+                                        <img class="villas-presentation__others-villas__title-and-image__image-element" :src="property.img1" />
+                                </div>
                         </div>
                 </div>
         </section>

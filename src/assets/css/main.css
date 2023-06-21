@@ -1,3 +1,7 @@
+.body {
+  padding: 5px 15px;
+}
+
 .body .villas-presentation {
   margin: 5rem 0;
 }
@@ -21,11 +25,12 @@
 .body .villas-presentation__others-villas {
   margin-top: 7rem;
 }
-.body .villas-presentation__others-villas__images {
+.body .villas-presentation__others-villas__title-and-image {
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
 }
-.body .villas-presentation__others-villas__images__element {
+.body .villas-presentation__others-villas__title-and-image__image-element {
   width: 250px;
   height: 150px;
   object-fit: cover;

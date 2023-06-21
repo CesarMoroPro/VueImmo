@@ -30,11 +30,12 @@
                 &__others-villas {
                         margin-top: 7rem;
 
-                        &__images {
+                        &__title-and-image {
                                 display: flex;
                                 flex-direction: row;
+                                flex-wrap: nowrap;
 
-                                &__element {
+                                &__image-element {
                                         width: 250px;
                                         height: 150px;
                                         object-fit: cover;
