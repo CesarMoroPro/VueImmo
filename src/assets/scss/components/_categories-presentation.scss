@@ -1,0 +1,47 @@
+.body {
+
+        .villas-presentation {
+                margin: 5rem 0;
+
+                &__title {
+
+                }
+
+                &__content {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        align-items: center;
+
+                        &__image {
+                                margin-right: 1rem;
+                                width: 900px;
+                                height: 300px;
+                                object-fit: cover;
+                                border-radius: 8px;
+                                border: solid white 3px;
+                        }
+
+                        &__resume {
+                                font-size: 1.4rem;
+                        }
+                }
+
+                &__others-villas {
+                        margin-top: 7rem;
+
+                        &__images {
+                                display: flex;
+                                flex-direction: row;
+
+                                &__element {
+                                        width: 250px;
+                                        height: 150px;
+                                        object-fit: cover;
+                                        border-radius: 8px;
+                                        border: solid white 3px;
+                                }
+                        }
+                }
+        }
+}
