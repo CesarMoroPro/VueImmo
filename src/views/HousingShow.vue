@@ -1,14 +1,34 @@
 <template>
-        <div>
-                <h2>{{housing.category.title}}</h2>
+        <section class="housing-presentation">
+                <h2 class="housing-presentation__title">{{housing.category.title}}</h2>
 
-                <div>
-                        <img 
-                                style="width: 300px; height: 150px; object-fit: cover;" 
+                <div class="housing-presentation__content">
+                        <img class="housing-presentation__content__image"
                                 :src="housing.category.img" />
-                        <p>{{ housing.category.resume }}</p>
+                        <p class="housing-presentation__content__resume">{{ housing.category.resume }}</p>
                 </div>
-        </div>
+
+                <div class="housing-presentation__others-housings">
+                        <h2 class="housing-presentation__title" 
+                                v-if="housing.category.gender === 'female' ">
+                                Toutes nos {{ housing.category.title }}
+                        </h2>
+                        <h2 class="housing-presentation__title" 
+                                v-else-if="housing.category.gender === 'male' ">
+                                Tous nos {{ housing.category.title }}
+                        </h2>
+
+                        <div class="housing-presentation__others-housings__all">
+                                <div class="housing-presentation__others-housings__title-and-image"
+                                        v-for="element in housing.house"
+                                        :key="housing.house.id">
+                                        <h3 class="housing-presentation__others-housings__title-and-image__title">{{ element.title }}</h3>
+                                        <img class="housing-presentation__others-housings__title-and-image__image-element" 
+                                                :src=element.img1 />
+                                </div>
+                        </div>
+                </div>
+        </section>
 
 </template>
 

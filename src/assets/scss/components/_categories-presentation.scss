@@ -27,13 +27,17 @@
                         }
                 }
 
-                &__others-housing {
+                &__others-housings {
                         margin-top: 7rem;
+
+                        &__all {
+                                display: flex;
+                                flex-direction: row;
+                        }
 
                         &__title-and-image {
                                 display: flex;
-                                flex-direction: row;
-                                flex-wrap: nowrap;
+                                flex-direction: column;
 
                                 &__image-element {
                                         width: 250px;

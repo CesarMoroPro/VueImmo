@@ -113,7 +113,8 @@
                                         "name": "villas",
                                         "title": "Villas de rêves",
                                         "resume": "Les plus belles villas, les pieds dans l'eau, en plein océan Pacifique ou en mer Méditerranée. Découvrez toutes nos luxueuses villas.",
-                                        "img": "../../public/img/villas/presentation.jpg"
+                                        "img": "../../public/img/villas/presentation.jpg",
+                                        "gender": "female"
                                 }
                 },
 
@@ -213,7 +214,8 @@
                                         "name": "appartements",
                                         "title": "Appartements luxueux",
                                         "resume": "Les appartements les plus luxueux et les plus distingués, au cœur des grandes villes les plus attrayantes : New York, Singapore, et bien d'autres...",
-                                        "img": "../../public/img/appartements/presentation.jpg"
+                                        "img": "../../public/img/appartements/presentation.jpg",
+                                        "gender": "male"
                                 }
                 },
 
@@ -313,7 +315,8 @@
                                         "name": "chalets",
                                         "title": "Chalets haut-de-gamme",
                                         "resume": "Suisse, Autriche, France, États-Unis : les chalets haut-de-gamme les mieux équipés et les mieux pensés, nichés au cœur des montagnes d'Europe et d'Amérique.",
-                                        "img": "../../public/img/chalets/presentation.jpg"
+                                        "img": "../../public/img/chalets/presentation.jpg",
+                                        "gender": "male"
                                 }
                         
                 }
