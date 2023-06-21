@@ -2,16 +2,16 @@
   padding: 5px 15px;
 }
 
-.body .villas-presentation {
+.body .housing-presentation {
   margin: 5rem 0;
 }
-.body .villas-presentation__content {
+.body .housing-presentation__content {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
-.body .villas-presentation__content__image {
+.body .housing-presentation__content__image {
   margin-right: 1rem;
   width: 900px;
   height: 300px;
@@ -19,18 +19,18 @@
   border-radius: 8px;
   border: solid white 3px;
 }
-.body .villas-presentation__content__resume {
+.body .housing-presentation__content__resume {
   font-size: 1.4rem;
 }
-.body .villas-presentation__others-villas {
+.body .housing-presentation__others-housing {
   margin-top: 7rem;
 }
-.body .villas-presentation__others-villas__title-and-image {
+.body .housing-presentation__others-housing__title-and-image {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
 }
-.body .villas-presentation__others-villas__title-and-image__image-element {
+.body .housing-presentation__others-housing__title-and-image__image-element {
   width: 250px;
   height: 150px;
   object-fit: cover;
