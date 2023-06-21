@@ -28,6 +28,11 @@ const router = createRouter({
         name: 'chalets',
         component: ChaletsComponent
     },
+    {
+        path: '/housing/:id',
+        name: 'house',
+        component: ()=>import('../views/HousingShow.vue')
+    }
   ]
 })
 
