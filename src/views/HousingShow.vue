@@ -4,7 +4,8 @@
 
                 <div class="housing-presentation__content">
                         <img class="housing-presentation__content__image"
-                                :src="housing.category.img" />
+                                :src=housing.category.img
+                                :alt=housing.category.title />
                         <p class="housing-presentation__content__resume">{{ housing.category.resume }}</p>
                 </div>
 
@@ -24,7 +25,8 @@
                                         :key="housing.house.id">
                                         <h3 class="housing-presentation__others-housings__title-and-image__title">{{ element.title }}</h3>
                                         <img class="housing-presentation__others-housings__title-and-image__image-element" 
-                                                :src=element.img1 />
+                                                :src=element.img1 
+                                                :alt=element.title />
                                 </div>
                         </div>
                 </div>

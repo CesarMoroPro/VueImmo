@@ -5,35 +5,25 @@ import VillasComponent from '../views/Villas.vue';
 import AppartementsComponent from '../views/Appartements.vue';
 import ChaletsComponent from '../views/Chalets.vue';
 
+const routes = [
+        /* Route pour la page d'accueil */
+        {
+                path: '/',
+                name: 'homepage',
+                component: HomepageComponent
+        },
+        
+        /* Routes dynamiques pour les pages de catégories de biens */
+        {
+                path: '/housings/:id',
+                name: 'housings.show',
+                component: ()=>import('../views/HousingShow.vue')
+        }
+]
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [
-    {
-      path: '/',
-      name: 'homepage',
-      component: HomepageComponent
-    },
-    {
-        path: '/villas',
-        name: 'villas',
-        component: VillasComponent
-    },
-    {
-        path: '/appartements',
-        name: 'appartements',
-        component: AppartementsComponent
-    },
-    {
-        path: '/chalets',
-        name: 'chalets',
-        component: ChaletsComponent
-    },
-    {
-        path: '/housing/:id',
-        name: 'house',
-        component: ()=>import('../views/HousingShow.vue')
-    }
-  ]
+  routes
 })
 
 export default router
