@@ -1,7 +1,12 @@
 <template>
-        <section class="one-housing">
+        <section class="one-housing"
+                v-for="element in housings"
+                :key="element.house.id">
 
-                <h2 class="one-housing__title"></h2>
+                <div v-if="element.house.id === computedHousing">
+                        <h2 class="one-housing__title">{{ element.house.title }}</h2>
+                </div>
+
 
         </section>
 </template>
@@ -15,5 +20,10 @@ export default {
                         housings: sourceData.housings,
                 }
         },
+        computed: {
+                computedHousing() {
+                         return sourceData.housings.find(housing => housing.house.id === parseInt(this.$route.params.id));
+                }
+        }
 }
 </script>
