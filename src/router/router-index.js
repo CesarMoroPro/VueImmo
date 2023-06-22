@@ -1,9 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
 import HomepageComponent from '../views/Homepage.vue';
-import VillasComponent from '../views/Villas.vue';
-import AppartementsComponent from '../views/Appartements.vue';
-import ChaletsComponent from '../views/Chalets.vue';
 
 const routes = [
         /* Route pour la page d'accueil */
@@ -17,7 +14,14 @@ const routes = [
         {
                 path: '/housings/:id',
                 name: 'housings.show',
-                component: ()=>import('../views/HousingShow.vue')
+                component: ()=>import('../views/HousingsShow.vue')
+        },
+
+        /* Routes dynamiques pour les pages affichant un seul bien */
+        {
+                path: '/one-housing/:id',
+                name: 'one.housing.show',
+                component: ()=>import('../views/OneHousingShow.vue')
         }
 ]
 
