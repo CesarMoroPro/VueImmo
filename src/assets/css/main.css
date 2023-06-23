@@ -25,10 +25,6 @@
 .body .housing-presentation__others-housings {
   margin-top: 7rem;
 }
-.body .housing-presentation__others-housings__all {
-  display: flex;
-  flex-direction: row;
-}
 .body .housing-presentation__others-housings__title-and-image {
   display: flex;
   flex-direction: column;

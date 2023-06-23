@@ -4,7 +4,10 @@
                         <router-link class="navigation__link"
                                 v-for="housing in housings"
                                 :key="housing.id"
-                                :to="{name: 'housings.show', params:{id: housing.id, slug: housing.name}}">{{ housing.name }}</router-link>
+                                :to="{name: 'housings.show', params:{id: housing.id, slug: housing.name}}"
+                        >
+                                {{ housing.name }}
+                        </router-link>
         </nav>
 
 </template>

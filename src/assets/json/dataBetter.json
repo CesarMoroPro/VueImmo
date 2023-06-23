@@ -3,7 +3,7 @@
                 {
                         "id": 0,
                         "name": "villas",
-                        "house": [
+                        "houses": [
                                 {
                                         "id": 0,
                                         "title": "Hawaiian Dream House",

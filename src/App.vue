@@ -3,9 +3,7 @@
         <HeaderComponent />
         <NavigationComponent />
 
-        <router-view /> <!-- ViewRouter principal, qui appelle les routes homepage, villas, appartements, chalets -->
-
-        <NavigationComponent />
+        <router-view /> <!-- ViewRouter principal, qui appelle la route statique homepage, la route dynamique par catégorie de biens -->
 
         <FooterComponent />
 

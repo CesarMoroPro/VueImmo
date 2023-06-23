@@ -1,23 +1,40 @@
 <template>
-        <div class="housing-presentation__others-housings__all">
+        <section class="housing-presentation__others-housings">
+
+                <h2 class="housing-presentation__title" 
+                        v-if="eachCategories.category.gender === 'female' ">
+                        Toutes nos {{ eachCategories.category.title }}
+                </h2>
+                <h2 class="housing-presentation__title" 
+                        v-else-if="eachCategories.category.gender === 'male' ">
+                        Tous nos {{ eachCategories.category.title }}
+                </h2>
+
                 <div class="housing-presentation__others-housings__title-and-image">
-                        <h3 class="housing-presentation__others-housings__title-and-image__title"> {{ allHousings.title }}</h3> <!-- allHousings = la props, qui contient les data enregistrée dans la variable 'house' dans la boucle du SFC Parent -->
-                        <img class="housing-presentation__others-housings__title-and-image__image-element" 
-                                :src="allHousings.img1"
-                                :alt="allHousings.title"
-                        />
+                        <router-link
+                                v-for="oneHouse in eachCategories.houses"
+                                :key="oneHouse.id"
+                                :to="{name: 'one.housing.show', params:{ houseSlug: oneHouse.title }}"
+                        > <!-- houseSlug = props dans le SFC OneHousingShow -->
+                                <h3 class="housing-presentation__others-housings__title-and-image__title"> {{ oneHouse.title }}</h3>
+                                <img class="housing-presentation__others-housings__title-and-image__image-element" 
+                                        :src="oneHouse.img1"
+                                        :alt="oneHouse.title"
+                                />
+                        </router-link>
                 </div>
-        </div>
+
+        </section>
 </template>
 
 <script>
 export default {
         props: {
-                allHousings:
+                eachCategories:
                         {
                                 type: Object,
                                 required: true,
-                        }
-        }
+                        },
+        },
 }
 </script>
