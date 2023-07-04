@@ -30,16 +30,19 @@
                 &__others-housings {
                         margin-top: 7rem;
 
-                        &__title-and-image {
-                                display: flex;
-                                flex-direction: column;
+                        &__all-housings {
 
-                                &__image-element {
-                                        width: 250px;
-                                        height: 150px;
-                                        object-fit: cover;
-                                        border-radius: 8px;
-                                        border: solid white 3px;
+                                &__title-and-image {
+                                        display: flex;
+                                        flex-direction: column;
+        
+                                        &__image-element {
+                                                width: 250px;
+                                                height: 150px;
+                                                object-fit: cover;
+                                                border-radius: 8px;
+                                                border: solid white 3px;
+                                        }
                                 }
                         }
                 }

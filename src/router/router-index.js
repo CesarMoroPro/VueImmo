@@ -20,9 +20,10 @@ const routes = [
 
         /* Routes dynamiques pour les pages affichant un seul bien */
         {
-                path: '/one-housing/:id',
+                path: '/one-housing/:id/:houseSlug',
                 name: 'one.housing.show',
-                component: ()=>import('../views/OneHousingShow.vue')
+                component: ()=>import('../views/OneHousingShow.vue'),
+                props: route=>({id: parseInt(route.params.id)})
         }
 ]
 

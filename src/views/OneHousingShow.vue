@@ -1,5 +1,12 @@
 <template>
+        <section>
+                <h1>{{ computedHouse.title }}</h1>
 
+                <div>
+                        <img :src=computedHouse.img1 :alt=computedHouse.title>
+                        <p>{{ computedHouse.description }}</p>
+                </div>
+        </section>
 </template>
 
 <script>

@@ -25,11 +25,11 @@
 .body .housing-presentation__others-housings {
   margin-top: 7rem;
 }
-.body .housing-presentation__others-housings__title-and-image {
+.body .housing-presentation__others-housings__all-housings__title-and-image {
   display: flex;
   flex-direction: column;
 }
-.body .housing-presentation__others-housings__title-and-image__image-element {
+.body .housing-presentation__others-housings__all-housings__title-and-image__image-element {
   width: 250px;
   height: 150px;
   object-fit: cover;

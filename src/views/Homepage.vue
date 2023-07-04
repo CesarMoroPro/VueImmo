@@ -1,6 +1,7 @@
 <template>     
 
         <section class="hompeage">
+                <h1>HOMEPAGE</h1>
                 <p>Résidence principale ou secondaire ?</p>
                 <p>Projet de location saisonnière ?</p>
                 <p>Appartements, Villas, Chalets... Les résidences de luxe sont chez Vue 3 Immo !</p>
