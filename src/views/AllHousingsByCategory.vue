@@ -1,5 +1,5 @@
 <template>
-        <!-- <section class="housing-presentation__others-housings">
+        <section class="housing-presentation__others-housings">
 
                 <h2 class="housing-presentation__title" 
                         v-if="eachCategories.category.gender === 'female' " @click="console.log(eachCategories.houses)">
@@ -16,7 +16,7 @@
                                 v-for="oneHouse in eachCategories.houses"
                                 :key="oneHouse.id"
                                 :to="{name: 'one.housing.show', params:{ houseSlug: oneHouse.title }}"
-                        > houseSlug = props dans le SFC OneHousingShow
+                        > <!--  houseSlug = props dans le SFC OneHousingShow -->
                                         <h3 class="housing-presentation__others-housings__all-housings__title-and-image__title" @click="console.log(oneHouse)"> {{ oneHouse.title }}</h3>
                                         <img class="housing-presentation__others-housings__all-housings__title-and-image__image-element" 
                                                 :src="oneHouse.img1"
@@ -25,7 +25,7 @@
                         </router-link>
                 </div>
 
-        </section> -->
+        </section>
 </template>
 
 <script>

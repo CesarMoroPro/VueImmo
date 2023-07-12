@@ -15,7 +15,7 @@ const routes = [
                 path: '/housings/:id/:slug',
                 name: 'housings.show',
                 component: ()=>import('../views/HousingsShow.vue'),
-                props: route=>({id: parseInt(route.params.id)})
+                props: route=>({ id: parseInt(route.params.id) }), 
         },
 
         /* Routes dynamiques pour les pages affichant un seul bien */
