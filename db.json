@@ -89,23 +89,6 @@
                   "terrace": true,
                   "swimming-pool": true
               },
-              {
-                  "id": 5,
-                  "title": "Polynésie Majestueuse",
-                  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem est aliquid quibusdam. Velit possimus neque minima non illum, nam dolores commodi consectetur, at quibusdam molestiae ab, ducimus excepturi error alias quisquam corporis doloribus dignissimos rem modi adipisci quod? Accusantium magnam, porro corrupti impedit totam vitae corporis atque minus excepturi molestiae facere. Ex dignissimos voluptatum incidunt, maxime vitae, dolorum quas pariatur cumque, inventore atque repellat impedit eos ipsa consectetur asperiores iure ratione fugiat similique.",
-                  "country": "France",
-                  "state": "Polynésie française",
-                  "img1": "../../img/villas/06.jpeg",
-                  "img2": "../../img/villas/06.a.jpeg",
-                  "img3": "../../img/villas/06.b.jpeg",
-                  "category": "villas",
-                  "price": 2300000,
-                  "rooms": 7,
-                  "surface": 250,
-                  "balcony": false,
-                  "terrace": true,
-                  "swimming-pool": true
-              }
           ],
           "category":
               {
@@ -190,23 +173,6 @@
                   "terrace": true,
                   "swimming-pool": false
               },
-              {
-                  "id": 4,
-                  "title": "Eternal Tokyo",
-                  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem est aliquid quibusdam. Velit possimus neque minima non illum, nam dolores commodi consectetur, at quibusdam molestiae ab, ducimus excepturi error alias quisquam corporis doloribus dignissimos rem modi adipisci quod? Accusantium magnam, porro corrupti impedit totam vitae corporis atque minus excepturi molestiae facere. Ex dignissimos voluptatum incidunt, maxime vitae, dolorum quas pariatur cumque, inventore atque repellat impedit eos ipsa consectetur asperiores iure ratione fugiat similique.",
-                  "country": "Japon",
-                  "state": "Tokyo",
-                  "img1": "../../img/appartements/05.jpeg",
-                  "img2": "../../img/appartements/05.a.jpeg",
-                  "img3": "../../img/appartements/05.b.jpeg",
-                  "category": "appartements",
-                  "price": 2300000,
-                  "rooms": 7,
-                  "surface": 250,
-                  "balcony": true,
-                  "terrace": true,
-                  "swimming-pool": false
-              }
           ],
           "category":
               {
@@ -291,23 +257,6 @@
                   "terrace": true,
                   "swimming-pool": false
               },
-              {
-                  "id": 4,
-                  "title": "Megève",
-                  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem est aliquid quibusdam. Velit possimus neque minima non illum, nam dolores commodi consectetur, at quibusdam molestiae ab, ducimus excepturi error alias quisquam corporis doloribus dignissimos rem modi adipisci quod? Accusantium magnam, porro corrupti impedit totam vitae corporis atque minus excepturi molestiae facere. Ex dignissimos voluptatum incidunt, maxime vitae, dolorum quas pariatur cumque, inventore atque repellat impedit eos ipsa consectetur asperiores iure ratione fugiat similique.",
-                  "country": "France",
-                  "state": "France",
-                  "img1": "../../img/chalets/05.jpeg",
-                  "img2": "../../img/chalets/05.a.jpeg",
-                  "img3": "../../img/chalets/05.b.jpeg",
-                  "category": "chalets",
-                  "price": 2300000,
-                  "rooms": 7,
-                  "surface": 250,
-                  "balcony": true,
-                  "terrace": true,
-                  "swimming-pool": false
-              }
           ],
           "category":
               {
