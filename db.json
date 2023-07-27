@@ -55,40 +55,6 @@
                   "terrace": true,
                   "swimming-pool": true
               },
-              {
-                  "id": 3,
-                  "title": "Madeira Ocean House",
-                  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem est aliquid quibusdam. Velit possimus neque minima non illum, nam dolores commodi consectetur, at quibusdam molestiae ab, ducimus excepturi error alias quisquam corporis doloribus dignissimos rem modi adipisci quod? Accusantium magnam, porro corrupti impedit totam vitae corporis atque minus excepturi molestiae facere. Ex dignissimos voluptatum incidunt, maxime vitae, dolorum quas pariatur cumque, inventore atque repellat impedit eos ipsa consectetur asperiores iure ratione fugiat similique.",
-                  "country": "Portugal",
-                  "state": "Madère",
-                  "img1": "../../img/villas/04.jpeg",
-                  "img2": "../../img/villas/04.a.jpeg",
-                  "img3": "../../img/villas/04.b.jpeg",
-                  "category": "villas",
-                  "price": 2300000,
-                  "rooms": 7,
-                  "surface": 250,
-                  "balcony": false,
-                  "terrace": true,
-                  "swimming-pool": true
-              },
-              {
-                  "id": 4,
-                  "title": "Preciosa Mallorca",
-                  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem est aliquid quibusdam. Velit possimus neque minima non illum, nam dolores commodi consectetur, at quibusdam molestiae ab, ducimus excepturi error alias quisquam corporis doloribus dignissimos rem modi adipisci quod? Accusantium magnam, porro corrupti impedit totam vitae corporis atque minus excepturi molestiae facere. Ex dignissimos voluptatum incidunt, maxime vitae, dolorum quas pariatur cumque, inventore atque repellat impedit eos ipsa consectetur asperiores iure ratione fugiat similique.",
-                  "country": "Espagne",
-                  "state": "Majorque",
-                  "img1": "../../img/villas/05.jpeg",
-                  "img2": "../../img/villas/05.a.jpeg",
-                  "img3": "../../img/villas/05.b.jpeg",
-                  "category": "villas",
-                  "price": 2300000,
-                  "rooms": 7,
-                  "surface": 250,
-                  "balcony": false,
-                  "terrace": true,
-                  "swimming-pool": true
-              },
           ],
           "category":
               {
@@ -156,23 +122,6 @@
                   "terrace": true,
                   "swimming-pool": false
               },
-              {
-                  "id": 3,
-                  "title": "California Dreaming",
-                  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem est aliquid quibusdam. Velit possimus neque minima non illum, nam dolores commodi consectetur, at quibusdam molestiae ab, ducimus excepturi error alias quisquam corporis doloribus dignissimos rem modi adipisci quod? Accusantium magnam, porro corrupti impedit totam vitae corporis atque minus excepturi molestiae facere. Ex dignissimos voluptatum incidunt, maxime vitae, dolorum quas pariatur cumque, inventore atque repellat impedit eos ipsa consectetur asperiores iure ratione fugiat similique.",
-                  "country": "USA",
-                  "state": "Californie",
-                  "img1": "../../img/appartements/04.jpeg",
-                  "img2": "../../img/appartements/04.a.jpeg",
-                  "img3": "../../img/appartements/04.b.jpeg",
-                  "category": "appartements",
-                  "price": 2300000,
-                  "rooms": 7,
-                  "surface": 250,
-                  "balcony": true,
-                  "terrace": true,
-                  "swimming-pool": false
-              },
           ],
           "category":
               {
@@ -232,23 +181,6 @@
                   "img1": "../../img/chalets/03.jpeg",
                   "img2": "../../img/chalets/03.a.jpeg",
                   "img3": "../../img/chalets/03.b.jpeg",
-                  "category": "chalets",
-                  "price": 2300000,
-                  "rooms": 7,
-                  "surface": 250,
-                  "balcony": true,
-                  "terrace": true,
-                  "swimming-pool": false
-              },
-              {
-                  "id": 3,
-                  "title": "Lech",
-                  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem est aliquid quibusdam. Velit possimus neque minima non illum, nam dolores commodi consectetur, at quibusdam molestiae ab, ducimus excepturi error alias quisquam corporis doloribus dignissimos rem modi adipisci quod? Accusantium magnam, porro corrupti impedit totam vitae corporis atque minus excepturi molestiae facere. Ex dignissimos voluptatum incidunt, maxime vitae, dolorum quas pariatur cumque, inventore atque repellat impedit eos ipsa consectetur asperiores iure ratione fugiat similique.",
-                  "country": "Autriche",
-                  "state": "Autriche",
-                  "img1": "../../img/chalets/04.jpeg",
-                  "img2": "../../img/chalets/04.a.jpeg",
-                  "img3": "../../img/chalets/04.b.jpeg",
                   "category": "chalets",
                   "price": 2300000,
                   "rooms": 7,
