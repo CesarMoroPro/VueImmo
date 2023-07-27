@@ -24,7 +24,7 @@
               {
                   "id": 1,
                   "title": "Sweet Greece",
-                  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem est aliquid quibusdam. Velit possimus neque minima non illum, nam dolores commodi consectetur, at quibusdam molestiae ab, ducimus excepturi error alias quisquam corporis doloribus dignissimos rem modi adipisci quod? Accusantium magnam, porro corrupti impedit totam vitae corporis atque minus excepturi molestiae facere. Ex dignissimos voluptatum incidunt, maxime vitae, dolorum quas pariatur cumque, inventore atque repellat impedit eos ipsa consectetur asperiores iure ratione fugiat similique.",
+                  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem est aliquid quibusdam. Velit possimus neque minima non illum, nam dolores commodi consectetur.",
                   "country": "Grèce",
                   "state": "",
                   "img1": "../../img/villas/02.jpeg",
@@ -41,7 +41,7 @@
               {
                   "id": 2,
                   "title": "Californian Villa",
-                  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem est aliquid quibusdam. Velit possimus neque minima non illum, nam dolores commodi consectetur, at quibusdam molestiae ab, ducimus excepturi error alias quisquam corporis doloribus dignissimos rem modi adipisci quod? Accusantium magnam, porro corrupti impedit totam vitae corporis atque minus excepturi molestiae facere. Ex dignissimos voluptatum incidunt, maxime vitae, dolorum quas pariatur cumque, inventore atque repellat impedit eos ipsa consectetur asperiores iure ratione fugiat similique.",
+                  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem est aliquid quibusdam. Velit possimus neque minima non illum, nam dolores commodi consectetur.",                  
                   "country": "USA",
                   "state": "Californie",
                   "img1": "../../img/villas/03.jpeg",
@@ -74,7 +74,7 @@
               {
                   "id": 0,
                   "title": "New York Business Appartement",
-                  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem est aliquid quibusdam. Velit possimus neque minima non illum, nam dolores commodi consectetur, at quibusdam molestiae ab, ducimus excepturi error alias quisquam corporis doloribus dignissimos rem modi adipisci quod? Accusantium magnam, porro corrupti impedit totam vitae corporis atque minus excepturi molestiae facere. Ex dignissimos voluptatum incidunt, maxime vitae, dolorum quas pariatur cumque, inventore atque repellat impedit eos ipsa consectetur asperiores iure ratione fugiat similique.",
+                  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem est aliquid quibusdam. Velit possimus neque minima non illum, nam dolores commodi consectetur.",                  
                   "country": "USA",
                   "state": "New York",
                   "img1": "../../img/appartements/01.jpeg",
@@ -91,7 +91,7 @@
               {
                   "id": 1,
                   "title": "Dubaï Luxuous",
-                  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem est aliquid quibusdam. Velit possimus neque minima non illum, nam dolores commodi consectetur, at quibusdam molestiae ab, ducimus excepturi error alias quisquam corporis doloribus dignissimos rem modi adipisci quod? Accusantium magnam, porro corrupti impedit totam vitae corporis atque minus excepturi molestiae facere. Ex dignissimos voluptatum incidunt, maxime vitae, dolorum quas pariatur cumque, inventore atque repellat impedit eos ipsa consectetur asperiores iure ratione fugiat similique.",
+                  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem est aliquid quibusdam. Velit possimus neque minima non illum, nam dolores commodi consectetur.",
                   "country": "Émirats Arabes",
                   "state": "Dubaï",
                   "img1": "../../img/appartements/02.jpeg",
@@ -108,7 +108,7 @@
               {
                   "id": 2,
                   "title": "Singapore Suite",
-                  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem est aliquid quibusdam. Velit possimus neque minima non illum, nam dolores commodi consectetur, at quibusdam molestiae ab, ducimus excepturi error alias quisquam corporis doloribus dignissimos rem modi adipisci quod? Accusantium magnam, porro corrupti impedit totam vitae corporis atque minus excepturi molestiae facere. Ex dignissimos voluptatum incidunt, maxime vitae, dolorum quas pariatur cumque, inventore atque repellat impedit eos ipsa consectetur asperiores iure ratione fugiat similique.",
+                  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem est aliquid quibusdam. Velit possimus neque minima non illum, nam dolores commodi consectetur.",
                   "country": "Singapore",
                   "state": "Singapore",
                   "img1": "../../img/appartements/03.jpeg",
@@ -141,7 +141,7 @@
               {
                   "id": 0,
                   "title": "Gstaad",
-                  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem est aliquid quibusdam. Velit possimus neque minima non illum, nam dolores commodi consectetur, at quibusdam molestiae ab, ducimus excepturi error alias quisquam corporis doloribus dignissimos rem modi adipisci quod? Accusantium magnam, porro corrupti impedit totam vitae corporis atque minus excepturi molestiae facere. Ex dignissimos voluptatum incidunt, maxime vitae, dolorum quas pariatur cumque, inventore atque repellat impedit eos ipsa consectetur asperiores iure ratione fugiat similique.",
+                  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem est aliquid quibusdam. Velit possimus neque minima non illum, nam dolores commodi consectetur.",
                   "country": "Suisse",
                   "state": "Suisse",
                   "img1": "../../img/chalets/01.jpeg",
@@ -158,7 +158,7 @@
               {
                   "id": 1,
                   "title": "Aspen",
-                  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem est aliquid quibusdam. Velit possimus neque minima non illum, nam dolores commodi consectetur, at quibusdam molestiae ab, ducimus excepturi error alias quisquam corporis doloribus dignissimos rem modi adipisci quod? Accusantium magnam, porro corrupti impedit totam vitae corporis atque minus excepturi molestiae facere. Ex dignissimos voluptatum incidunt, maxime vitae, dolorum quas pariatur cumque, inventore atque repellat impedit eos ipsa consectetur asperiores iure ratione fugiat similique.",
+                  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem est aliquid quibusdam. Velit possimus neque minima non illum, nam dolores commodi consectetur.",
                   "country": "USA",
                   "state": "Colorado",
                   "img1": "../../img/chalets/02.jpeg",
@@ -175,7 +175,7 @@
               {
                   "id": 2,
                   "title": "Saint-Moritz",
-                  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem est aliquid quibusdam. Velit possimus neque minima non illum, nam dolores commodi consectetur, at quibusdam molestiae ab, ducimus excepturi error alias quisquam corporis doloribus dignissimos rem modi adipisci quod? Accusantium magnam, porro corrupti impedit totam vitae corporis atque minus excepturi molestiae facere. Ex dignissimos voluptatum incidunt, maxime vitae, dolorum quas pariatur cumque, inventore atque repellat impedit eos ipsa consectetur asperiores iure ratione fugiat similique.",
+                  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem est aliquid quibusdam. Velit possimus neque minima non illum, nam dolores commodi consectetur.",
                   "country": "Suisse",
                   "state": "Suisse",
                   "img1": "../../img/chalets/03.jpeg",
