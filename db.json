@@ -54,7 +54,7 @@
                   "balcony": false,
                   "terrace": true,
                   "swimming-pool": true
-              },
+              }
           ],
           "category":
               {
@@ -121,7 +121,7 @@
                   "balcony": true,
                   "terrace": true,
                   "swimming-pool": false
-              },
+              }
           ],
           "category":
               {
@@ -188,7 +188,7 @@
                   "balcony": true,
                   "terrace": true,
                   "swimming-pool": false
-              },
+              }
           ],
           "category":
               {
